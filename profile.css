@@ -1,0 +1,62 @@
+*
+{
+    border: 1px solid black;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.bottom-div {
+    height: 180px; /* Sets the height of the bottom div */
+    width: 100%; /* Sets the width of the bottom div */
+    background: linear-gradient(to bottom right, #f98f3e, #eed234);
+    position: relative; /* Sets the position of the bottom div to relative */
+  }
+  
+  .top-div {
+    height: 100px; /* Sets the height of the top div */
+    width: 100%; /* Sets the width of the top div */
+    background-color: transparent; /* Sets the background color of the top div */
+    position: absolute; /* Sets the position of the top div to absolute */
+    top: 35%; /* Positions the top edge of the top div at 50% of the bottom div's height */
+    left: 50%; /* Positions the left edge of the top div at 50% of the bottom div's width */
+    transform: translate(-50%, -50%); /* Translates the top div 50% up and 50% left to center it */
+    z-index: 1; /* Sets the z-index of the top div to be higher than the bottom div */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  #image
+  {
+     width: 100px;
+     padding-left: 30px;
+  }
+  button {
+    border: 2px solid #9ec6db;
+    background-color: #9bcbe3;
+    border-radius: 0.9em;
+    padding: 0.2em 0.3em 0.2em 0.25em;
+    transition: all ease-in-out 0.2s;
+    font-size: 12px;
+    position: relative;
+    top: 40%;
+    
+   }
+   
+   button span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+   }
+   
+   button:hover {
+    background-color: #0071e2;
+   }
+   #user-id
+   {
+        display
+   }
